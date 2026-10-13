@@ -1,11 +1,11 @@
 ﻿import { useEffect, useState } from "react";
 
-import Home1 from "../../assets/Imagess/HomeImage/Home1.jpg";
-import Home2 from "../../assets/Imagess/HomeImage/Home2.jpg";
-import Home3 from "../../assets/Imagess/HomeImage/Home3.jpg";
-import Home4 from "../../assets/Imagess/HomeImage/Home4.jpg";
-import Home5 from "../../assets/Imagess/HomeImage/Home5.jpg";
-import Home6 from "../../assets/Imagess/HomeImage/Home6.jpg";
+import Home1 from "../../assets/Imagess/HomeImage/Home1.jpeg";
+import Home2 from "../../assets/Imagess/HomeImage/Home2.jpeg";
+import Home3 from "../../assets/Imagess/HomeImage/Home3.jpeg";
+import Home4 from "../../assets/Imagess/HomeImage/Home4.jpeg";
+import Home5 from "../../assets/Imagess/HomeImage/Home5.jpeg";
+import Home6 from "../../assets/Imagess/HomeImage/Home6.jpeg";
 
 const images = [Home1, Home2, Home3, Home4, Home5, Home6];
 

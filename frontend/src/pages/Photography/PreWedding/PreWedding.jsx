@@ -6,7 +6,7 @@ export default function PreWedding() {
       slug="pre-wedding"
       name="Pre-Wedding"
       tagline="The beginning of forever"
-description="Timeless moments before the big day — candid, romantic, and full of anticipation, captured in the softest light."
+      description="Before the celebrations begin, there is this beautiful chapter of just the two of you — captured naturally, romantically, and honestly."
     />
   )
 }

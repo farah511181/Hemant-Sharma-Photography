@@ -11,17 +11,37 @@ import { useEffect } from 'react'
 import Navbar from './components/layout/Navbar'
 import Footer from './components/layout/Footer'
 
+// =========================================================
+// MAIN PAGES
+// =========================================================
+
 import Home from './pages/Home/Home'
 import About from './pages/About/About'
-
-import Photography from './pages/Photography/Photography'
-import PreWedding from './pages/Photography/PreWedding/PreWedding'
-import PostWedding from './pages/Photography/PostWedding/PostWedding'
-import Wedding from './pages/Photography/Wedding/Wedding'
-import Family from './pages/Photography/Family/Family'
-import Fashion from './pages/Photography/Fashion/Fashion'
 import Contact from './pages/Contact/Contact'
 
+// =========================================================
+// EXISTING PHOTOGRAPHY PAGES
+// =========================================================
+
+import PreWedding from './pages/Photography/PreWedding/PreWedding'
+import Wedding from './pages/Photography/Wedding/Wedding'
+
+// =========================================================
+// STUDIO PAGES
+// =========================================================
+
+import Kids from './pages/Photography/Kids/Kids'
+import Maternity from './pages/Photography/Maternity/Maternity'
+import Newborn from './pages/Photography/Newborn/Newborn'
+import Family from './pages/Photography/Family/Family'
+import Fashion from './pages/Photography/Fashion/Fashion'
+
+// =========================================================
+// STories PAGES
+// =========================================================
+import Bridal from './pages/Photography/Bridal/Bridal'
+import Candid from './pages/Photography/Candid/Candid'
+import Groom from './pages/Photography/Groom/Groom'
 
 // =========================================================
 // SCROLL TO TOP
@@ -40,76 +60,164 @@ function ScrollToTop() {
 
 // =========================================================
 // WEBSITE LAYOUT
-// Navbar + Footer sirf main website par
+// Navbar + Footer
 // =========================================================
 
 function WebsiteLayout() {
   return (
     <div className="min-h-screen flex flex-col bg-charcoal text-sand">
 
+      {/* =================================================
+          NAVBAR
+      ================================================= */}
+
       <Navbar />
 
+
+      {/* =================================================
+          MAIN CONTENT
+      ================================================= */}
+
       <main className="flex-grow">
+
         <Routes>
 
-          {/* HOME */}
+          {/* =================================================
+              HOME
+          ================================================= */}
+
           <Route
             path="/home"
             element={<Home />}
           />
 
-          {/* ABOUT */}
+
+          {/* =================================================
+              ABOUT
+          ================================================= */}
+
           <Route
             path="/about"
             element={<About />}
           />
 
-          {/* PHOTOGRAPHY */}
-          <Route
-            path="/photography"
-            element={<Photography />}
-          />
+
+          {/* =================================================
+              EXISTING PHOTOGRAPHY
+          ================================================= */}
+
+          {/* Pre-Wedding */}
 
           <Route
             path="/photography/pre-wedding"
             element={<PreWedding />}
           />
 
-          <Route
-            path="/photography/post-wedding"
-            element={<PostWedding />}
-          />
+
+          {/* Wedding */}
 
           <Route
             path="/photography/wedding"
             element={<Wedding />}
           />
 
+
+          {/* =================================================
+              STUDIO
+          ================================================= */}
+
+          {/* Kids */}
+
           <Route
-            path="/photography/family"
+            path="/studio/kids"
+            element={<Kids />}
+          />
+
+
+          {/* Maternity */}
+
+          <Route
+            path="/studio/maternity"
+            element={<Maternity />}
+          />
+
+
+          {/* Newborn */}
+
+          <Route
+            path="/studio/newborn"
+            element={<Newborn />}
+          />
+
+
+          {/* Family */}
+
+          <Route
+            path="/studio/family"
             element={<Family />}
           />
 
+
+          {/* Fashion */}
+
           <Route
-            path="/photography/fashion"
+            path="/studio/fashion"
             element={<Fashion />}
           />
-         
 
-          {/* CONTACT */}
+           {/* =================================================
+              STUDIO
+          ================================================= */}
+
+<Route
+  path="/stories/bridal"
+  element={<Bridal />}
+/>
+
+<Route
+  path="/stories/candid"
+  element={<Candid />}
+/>
+
+<Route
+  path="/stories/getting-ready"
+  element={<Groom />}
+/>
+
+          {/* =================================================
+              CONTACT
+          ================================================= */}
+
           <Route
             path="/contact"
             element={<Contact />}
           />
 
-          {/* UNKNOWN WEBSITE URL */}
+
+          {/* =================================================
+              UNKNOWN URL
+              Agar URL match nahi karega,
+              to Home par redirect hoga.
+          ================================================= */}
+
           <Route
             path="*"
-            element={<Navigate to="/home" replace />}
+            element={
+              <Navigate
+                to="/home"
+                replace
+              />
+            }
           />
 
         </Routes>
+
       </main>
+
+
+      {/* =================================================
+          FOOTER
+      ================================================= */}
 
       <Footer />
 
@@ -126,21 +234,15 @@ function App() {
   return (
     <BrowserRouter>
 
+      {/* Scroll page to top whenever route changes */}
+
       <ScrollToTop />
+
 
       <Routes>
 
-       
-
-
         {/* =================================================
             MAIN WEBSITE
-
-            /home
-            /about
-            /photography
-            /contact
-            etc.
         ================================================= */}
 
         <Route

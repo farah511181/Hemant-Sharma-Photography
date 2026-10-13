@@ -71,8 +71,8 @@ const STUDIO_LINKS = [
       'Warm family portraits capturing connection, love and togetherness.',
   },
   {
-    label: 'Fashion & Portfolio',
-    path: '/studio/fashion-portfolio',
+    label: 'Fashion ',
+    path: '/studio/fashion',
     number: '05',
     description:
       'Editorial portraits, creative concepts and fashion-forward visual stories.',
@@ -91,26 +91,19 @@ const STORIES_LINKS = [
     description:
       'Natural emotions, spontaneous moments and beautifully honest frames.',
   },
+{
+  label: 'Bridal Portraits',
+  path: '/stories/bridal',
+  number: '02',
+  description:
+    'Elegant bridal portraits capturing beauty, grace and personality.',
+},
   {
-    label: 'Bridal Portraits',
-    path: '/stories/bridal-portraits',
-    number: '02',
-    description:
-      'Elegant bridal portraits capturing beauty, grace and personality.',
-  },
-  {
-    label: 'Getting Ready',
+    label: 'Groom Portraits',
     path: '/stories/getting-ready',
     number: '03',
     description:
       'The intimate details, emotions and anticipation before the celebration.',
-  },
-  {
-    label: 'Editorial',
-    path: '/stories/editorial',
-    number: '04',
-    description:
-      'Refined compositions, fashion-forward portraits and artistic storytelling.',
   },
 ]
 

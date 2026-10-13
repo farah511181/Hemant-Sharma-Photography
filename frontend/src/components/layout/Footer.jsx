@@ -413,6 +413,15 @@ export default function Footer() {
           >
             © {year} Hemant Sharma Photography. All Rights Reserved.
           </p>
+
+          
+<p
+  className="font-sans text-[14px] tracking-[0.08em] text-center"
+  style={{
+    color: '#654C43',
+    marginLeft: '40px',
+    fontWeight: 500,
+  }}> Developed by Farah Naz</p>
         </div>
       </div>
     </footer>

@@ -1,3 +1,7 @@
-node_modules
-front video.mp4
-IMG_0470.MP4
+
+node_modules/
+
+.env
+.env.*
+
+src/assets/FrontVideo/

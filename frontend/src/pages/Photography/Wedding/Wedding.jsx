@@ -5,8 +5,8 @@ export default function Wedding() {
     <CategoryLayout
       slug="wedding"
       name="Wedding"
-      tagline="Your day, told in light"
-      description="Editorial storytelling of your most cherished day, from the first look to the last dance."
+      tagline="Timeless moments, beautifully told"
+      description="Your story, your people, and every emotion in between — captured with warmth, elegance, and a timeless sense of beauty."
     />
   )
 }

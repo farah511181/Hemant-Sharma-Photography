@@ -67,7 +67,7 @@ export default function FeaturedWork() {
         <SectionHeading
           eyebrow="Featured Stories"
           title="Stories We’ve Had the Honour to Tell"
-          description="Every celebration carries its own rhythm, traditions and emotions. We document those moments honestly, allowing every wedding to become a story of its own."
+          description="Every wedding leaves behind more than photographs — a collection of laughter, emotions, little details and moments that are uniquely yours. We’re here to preserve those moments as they truly happened, so you can return to them for years to come."
         />
 
         {/* Mobile */}

@@ -1,286 +1,255 @@
 // =====================================================
-// CENTRALIZED CONTENT DATA
-// Hemant Sharma Photography Studio Website
+// WEDDING IMAGES
 // =====================================================
 
+import WeddingImage1 from '../assets/Imagess/WeddingImagess/Image1.jpeg'
+import WeddingImage2 from '../assets/Imagess/WeddingImagess/Image2.jpeg'
+import WeddingImage3 from '../assets/Imagess/WeddingImagess/Image3.jpeg'
+import WeddingImage4 from '../assets/Imagess/WeddingImagess/Image4.jpeg'
+import WeddingImage5 from '../assets/Imagess/WeddingImagess/Image5.jpeg'
+import WeddingImage6 from '../assets/Imagess/WeddingImagess/Image6.jpeg'
+import WeddingImage7 from '../assets/Imagess/WeddingImagess/Image7.jpeg'
+import WeddingImage8 from '../assets/Imagess/WeddingImagess/Image8.jpeg'
+import WeddingImage9 from '../assets/Imagess/WeddingImagess/Image9.jpeg'
+import WeddingImage10 from '../assets/Imagess/WeddingImagess/Image10.jpeg'
+import WeddingImage11 from '../assets/Imagess/WeddingImagess/Image11.jpeg'
+import WeddingImage12 from '../assets/Imagess/WeddingImagess/Image12.jpeg'
+import WeddingImage13 from '../assets/Imagess/WeddingImagess/Image13.jpeg'
+import WeddingImage14 from '../assets/Imagess/WeddingImagess/Image14.jpeg'
 
 // =====================================================
-// MAIN WEBSITE IMAGES
-// src/assets/Imagess/
+// PRE-WEDDING IMAGES
 // =====================================================
 
-import W1 from '../assets/Imagess/W1.jpeg'
-import W2 from '../assets/Imagess/W2.jpeg'
-import W3 from '../assets/Imagess/W3.jpeg'
-import W4 from '../assets/Imagess/W4.jpeg'
-import W5 from '../assets/Imagess/W5.jpeg'
-import W6 from '../assets/Imagess/W6.jpeg'
-import W7 from '../assets/Imagess/W7.jpeg'
-import W8 from '../assets/Imagess/W8.jpeg'
-import W9 from '../assets/Imagess/W9.jpeg'
-import W10 from '../assets/Imagess/W10.jpeg'
-import W11 from '../assets/Imagess/W11.jpeg'
-import W12 from '../assets/Imagess/W12.jpeg'
-import W13 from '../assets/Imagess/W13.jpeg'
-
-
-import PW1 from '../assets/Imagess/PW1.jpeg'
-import PW2 from '../assets/Imagess/PW2.jpeg'
-import PW3 from '../assets/Imagess/PW3.jpeg'
-import PW4 from '../assets/Imagess/PW4.jpeg'
-import PW5 from '../assets/Imagess/PW5.jpeg'
-import PW6 from '../assets/Imagess/PW6.jpeg'
-import PW7 from '../assets/Imagess/PW7.jpeg'
-import PW8 from '../assets/Imagess/PW8.jpeg'
-import PW9 from '../assets/Imagess/PW9.jpeg'
-import PW10 from '../assets/Imagess/PW10.jpeg'
-import PW11 from '../assets/Imagess/PW11.jpeg'
-import PW12 from '../assets/Imagess/PW12.jpeg'
-import PW13 from '../assets/Imagess/PW13.jpeg'
-import PW14 from '../assets/Imagess/PW14.jpeg'
-
-
-import F2 from '../assets/Imagess/F2.jpeg'
-import F3 from '../assets/Imagess/F3.jpeg'
-import F4 from '../assets/Imagess/F4.jpeg'
-import F5 from '../assets/Imagess/F5.jpeg'
-import F6 from '../assets/Imagess/F6.jpeg'
-import F7 from '../assets/Imagess/F7.jpeg'
-import F8 from '../assets/Imagess/F8.jpeg'
-import F9 from '../assets/Imagess/F9.jpeg'
-import F10 from '../assets/Imagess/F10.jpeg'
-import F11 from '../assets/Imagess/F11.jpeg'
-import F12 from '../assets/Imagess/F12.jpeg'
-import F13 from '../assets/Imagess/F13.jpeg'
-import F14 from '../assets/Imagess/F14.jpeg'
-import F15 from '../assets/Imagess/F15.jpeg'
-import F16 from '../assets/Imagess/F16.jpeg'
-
-
-import Fashion1 from '../assets/Imagess/Fashion1.jpeg'
-
+import PreWeddingImage1 from '../assets/Imagess/Pre-WeddingImagess/Image1.jpeg'
+import PreWeddingImage2 from '../assets/Imagess/Pre-WeddingImagess/Image2.jpeg'
+import PreWeddingImage3 from '../assets/Imagess/Pre-WeddingImagess/Image3.jpeg'
+import PreWeddingImage4 from '../assets/Imagess/Pre-WeddingImagess/Image4.jpeg'
+import PreWeddingImage5 from '../assets/Imagess/Pre-WeddingImagess/Image5.jpeg'
+import PreWeddingImage6 from '../assets/Imagess/Pre-WeddingImagess/Image6.jpeg'
+import PreWeddingImage7 from '../assets/Imagess/Pre-WeddingImagess/Image7.jpeg'
+import PreWeddingImage8 from '../assets/Imagess/Pre-WeddingImagess/Image8.jpeg'
+import PreWeddingImage9 from '../assets/Imagess/Pre-WeddingImagess/Image9.jpeg'
+import PreWeddingImage10 from '../assets/Imagess/Pre-WeddingImagess/Image10.jpeg'
+import PreWeddingImage11 from '../assets/Imagess/Pre-WeddingImagess/Image11.jpeg'
+import PreWeddingImage12 from '../assets/Imagess/Pre-WeddingImagess/Image12.jpeg'
+import PreWeddingImage13 from '../assets/Imagess/Pre-WeddingImagess/Image13.jpeg'
+import PreWeddingImage14 from '../assets/Imagess/Pre-WeddingImagess/Image14.jpeg'
+import PreWeddingImage15 from '../assets/Imagess/Pre-WeddingImagess/Image15.jpeg'
 
 // =====================================================
-// CATEGORY IMAGE FOLDERS
-// =====================================================
-//
-// IMPORTANT:
-// These names match the folders in your VS Code project.
-//
-// Wedding:
-// src/assets/Imagess/WeddingImagess/
-//
-// Pre-Wedding:
-// src/assets/Imagess/Pre-WeddingImagess/
-//
-// Fashion:
-// src/assets/Imagess/FashionImagess/
-//
-
-
-// =====================================================
-// WEDDING CATEGORY IMAGES
+// BRIDAL IMAGES
 // =====================================================
 
-const weddingCategoryFiles = import.meta.glob(
-  '../assets/Imagess/WeddingImagess/*',
-  {
-    eager: true,
-    query: '?url',
-    import: 'default',
-  }
-)
-
-const weddingImages = Object.entries(weddingCategoryFiles)
-  .sort(([pathA], [pathB]) =>
-    pathA.localeCompare(pathB, undefined, {
-      numeric: true,
-      sensitivity: 'base',
-    })
-  )
-  .map(([path, image], index) => ({
-    src: image,
-    alt: `Wedding Photography ${index + 1}`,
-    fileName: path.split('/').pop(),
-  }))
-
+import BridalImage1 from '../assets/Imagess/BridalImagess/Image1.jpeg'
+import BridalImage2 from '../assets/Imagess/BridalImagess/Image2.jpeg'
+import BridalImage3 from '../assets/Imagess/BridalImagess/Image3.jpeg'
+import BridalImage4 from '../assets/Imagess/BridalImagess/Image4.jpeg'
+import BridalImage5 from '../assets/Imagess/BridalImagess/Image5.jpeg'
+import BridalImage6 from '../assets/Imagess/BridalImagess/Image6.jpeg'
+import BridalImage7 from '../assets/Imagess/BridalImagess/Image7.jpeg'
+import BridalImage8 from '../assets/Imagess/BridalImagess/Image8.jpeg'
+import BridalImage9 from '../assets/Imagess/BridalImagess/Image9.jpeg'
+import BridalImage10 from '../assets/Imagess/BridalImagess/Image10.jpeg'
 
 // =====================================================
-// PRE-WEDDING CATEGORY IMAGES
+// CANDID IMAGES
 // =====================================================
 
-const preWeddingCategoryFiles = import.meta.glob(
-  '../assets/Imagess/Pre-WeddingImagess/*',
-  {
-    eager: true,
-    query: '?url',
-    import: 'default',
-  }
-)
-
-const preWeddingImages = Object.entries(preWeddingCategoryFiles)
-  .sort(([pathA], [pathB]) =>
-    pathA.localeCompare(pathB, undefined, {
-      numeric: true,
-      sensitivity: 'base',
-    })
-  )
-  .map(([path, image], index) => ({
-    src: image,
-    alt: `Pre-Wedding Photography ${index + 1}`,
-    fileName: path.split('/').pop(),
-  }))
-
+import CandidImage1 from '../assets/Imagess/CandidImagess/Image1.jpeg'
+import CandidImage2 from '../assets/Imagess/CandidImagess/Image2.jpeg'
+import CandidImage3 from '../assets/Imagess/CandidImagess/Image3.jpeg'
+import CandidImage4 from '../assets/Imagess/CandidImagess/Image4.jpeg'
+import CandidImage5 from '../assets/Imagess/CandidImagess/Image5.jpeg'
+import CandidImage6 from '../assets/Imagess/CandidImagess/Image6.jpeg'
+import CandidImage7 from '../assets/Imagess/CandidImagess/Image7.jpeg'
+import CandidImage8 from '../assets/Imagess/CandidImagess/Image8.jpeg'
+import CandidImage9 from '../assets/Imagess/CandidImagess/Image9.jpeg'
+import CandidImage10 from '../assets/Imagess/CandidImagess/Image10.jpeg'
 
 // =====================================================
-// FASHION CATEGORY IMAGES
+// GROOM IMAGES
 // =====================================================
 
-const fashionCategoryFiles = import.meta.glob(
-  '../assets/Imagess/FashionImagess/*',
-  {
-    eager: true,
-    query: '?url',
-    import: 'default',
-  }
-)
+// All Groom images are expected in GroomImagess.
+// If your actual folder is GroomGetImagess, change
+// these paths to that folder's exact name.
 
-const fashionImages = Object.entries(fashionCategoryFiles)
-  .sort(([pathA], [pathB]) =>
-    pathA.localeCompare(pathB, undefined, {
-      numeric: true,
-      sensitivity: 'base',
-    })
-  )
-  .map(([path, image], index) => ({
-    src: image,
-    alt: `Fashion Photography ${index + 1}`,
-    fileName: path.split('/').pop(),
-  }))
-
+import GroomImage1 from '../assets/Imagess/GroomImagess/Image1.jpeg'
+import GroomImage2 from '../assets/Imagess/GroomImagess/Image2.jpeg'
+import GroomImage3 from '../assets/Imagess/GroomImagess/Image3.jpeg'
+import GroomImage4 from '../assets/Imagess/GroomImagess/Image4.jpeg'
+import GroomImage5 from '../assets/Imagess/GroomImagess/Image5.jpeg'
+import GroomImage6 from '../assets/Imagess/GroomImagess/Image6.jpeg'
+import GroomImage7 from '../assets/Imagess/GroomImagess/Image7.jpeg'
+import GroomImage8 from '../assets/Imagess/GroomImagess/Image8.jpeg'
+import GroomImage9 from '../assets/Imagess/GroomImagess/Image9.jpeg'
+import GroomImage10 from '../assets/Imagess/GroomImagess/Image10.jpeg'
 
 // =====================================================
-// NAVIGATION
+// WEDDING IMAGE DATA
 // =====================================================
 
-export const NAV_LINKS = [
-  {
-    label: 'Home',
-    path: '/',
-  },
-  {
-    label: 'About',
-    path: '/about',
-  },
-  {
-    label: 'Photography',
-    path: '/photography',
-  },
-  {
-    label: 'Films',
-    path: '/films',
-  },
-  {
-    label: 'Poetry',
-    path: '/poetry',
-  },
-  {
-    label: 'Journal',
-    path: '/blog',
-  },
-  {
-    label: 'Contact',
-    path: '/contact',
-  },
-]
-
+export const WEDDING_IMAGES = [
+  WeddingImage1,
+  WeddingImage2,
+  WeddingImage3,
+  WeddingImage4,
+  WeddingImage5,
+  WeddingImage6,
+  WeddingImage7,
+  WeddingImage8,
+  WeddingImage9,
+  WeddingImage10,
+  WeddingImage11,
+  WeddingImage12,
+  WeddingImage13,
+  WeddingImage14,
+].map((src, index) => ({
+  src,
+  alt: `Wedding Photography ${index + 1}`,
+}))
 
 // =====================================================
-// PHOTOGRAPHY CATEGORIES
+// PRE-WEDDING IMAGE DATA
+// =====================================================
+
+export const PRE_WEDDING_IMAGES = [
+  PreWeddingImage1,
+  PreWeddingImage2,
+  PreWeddingImage3,
+  PreWeddingImage4,
+  PreWeddingImage5,
+  PreWeddingImage6,
+  PreWeddingImage7,
+  PreWeddingImage8,
+  PreWeddingImage9,
+  PreWeddingImage10,
+  PreWeddingImage11,
+  PreWeddingImage12,
+  PreWeddingImage13,
+  PreWeddingImage14,
+  PreWeddingImage15,
+].map((src, index) => ({
+  src,
+  alt: `Pre-Wedding Photography ${index + 1}`,
+}))
+
+// =====================================================
+// BRIDAL IMAGE DATA
+// =====================================================
+
+export const BRIDAL_IMAGES = [
+  BridalImage1,
+  BridalImage2,
+  BridalImage3,
+  BridalImage4,
+  BridalImage5,
+  BridalImage6,
+  BridalImage7,
+  BridalImage8,
+  BridalImage9,
+  BridalImage10,
+].map((src, index) => ({
+  src,
+  alt: `Bridal Photography ${index + 1}`,
+}))
+
+// =====================================================
+// CANDID IMAGE DATA
+// =====================================================
+
+export const CANDID_IMAGES = [
+  CandidImage1,
+  CandidImage2,
+  CandidImage3,
+  CandidImage4,
+  CandidImage5,
+  CandidImage6,
+  CandidImage7,
+  CandidImage8,
+  CandidImage9,
+  CandidImage10,
+].map((src, index) => ({
+  src,
+  alt: `Candid Wedding Photography ${index + 1}`,
+}))
+
+// =====================================================
+// GROOM IMAGE DATA
+// =====================================================
+
+export const GROOM_IMAGES = [
+  GroomImage1,
+  GroomImage2,
+  GroomImage3,
+  GroomImage4,
+  GroomImage5,
+  GroomImage6,
+  GroomImage7,
+  GroomImage8,
+  GroomImage9,
+  GroomImage10,
+].map((src, index) => ({
+  src,
+  alt: `Groom Photography ${index + 1}`,
+}))
+
+// =====================================================
+// CATEGORIES
 // =====================================================
 
 export const CATEGORIES = [
   {
-    slug: 'pre-wedding',
-    name: 'Pre-Wedding',
-    description:
-      'Timeless moments before the big day — candid, romantic, and full of anticipation.',
-    tagline: 'The beginning of forever',
-    image: PW1,
-  },
-
-  {
-    slug: 'post-wedding',
-    name: 'Post-Wedding',
-    description:
-      'Fresh-off-the-celebration sessions that capture the joy and intimacy of newlyweds.',
-    tagline: 'Newlywed warmth',
-    image: W5,
-  },
-
-  {
-    slug: 'wedding',
-    name: 'Wedding',
-    description:
-      'Editorial storytelling of your most cherished day, from first look to last dance.',
-    tagline: 'Your day, told in light',
-    image: W1,
-  },
-
-  {
-    slug: 'family',
-    name: 'Family',
-    description:
-      'Honest, warm portraits of the people who make a house a home.',
-    tagline: 'Roots & connection',
-    image: F2,
-  },
-
-  {
-    slug: 'fashion',
-    name: 'Fashion',
-    description:
-      'Bold, editorial work that celebrates style, texture, and the art of the frame.',
-    tagline: 'Style in motion',
-    image: F3,
-  },
-]
-
-
-// =====================================================
-// FEATURED WORK
-// =====================================================
-
-export const FEATURED_WORK = [
-  {
     id: 1,
-    category: 'Wedding',
-    title: 'Aarav & Meera',
-    location: 'Jaipur, India',
+    title: 'Wedding',
+    slug: 'wedding',
+    description:
+      'Timeless wedding stories captured with emotion, elegance and authenticity.',
   },
-
   {
     id: 2,
-    category: 'Pre-Wedding',
-    title: 'Rohan & Ananya',
-    location: 'Udaipur, India',
+    title: 'Pre-Wedding',
+    slug: 'pre-wedding',
+    description:
+      'Beautiful pre-wedding stories filled with natural moments and genuine emotions.',
   },
-
   {
     id: 3,
-    category: 'Wedding',
-    title: 'Kabir & Diya',
-    location: 'Goa, India',
+    title: 'Bridal',
+    slug: 'bridal',
+    description:
+      'Elegant bridal portraits and meaningful moments before the celebration begins.',
   },
-
   {
     id: 4,
-    category: 'Family',
-    title: 'The Malhotra Family',
-    location: 'New Delhi, India',
+    title: 'Fashion',
+    slug: 'fashion',
+    description:
+      'Creative fashion photography with a modern visual approach.',
+  },
+  {
+    id: 5,
+    title: 'Maternity',
+    slug: 'maternity',
+    description:
+      'Beautiful maternity stories celebrating motherhood and new beginnings.',
+  },
+  {
+    id: 6,
+    title: 'Candid',
+    slug: 'candid',
+    description:
+      'Real emotions, genuine laughter and beautiful moments captured naturally.',
+  },
+  {
+    id: 7,
+    title: 'Groom',
+    slug: 'groom',
+    description:
+      'Portraits and memorable moments celebrating the groom.',
   },
 ]
-
 
 // =====================================================
 // FILMS
@@ -288,144 +257,58 @@ export const FEATURED_WORK = [
 
 export const FILMS = [
   {
-    id: 'the-last-goodbye',
-    title: 'The Last Goodbye',
-    category: 'Wedding Film',
-    duration: '04:12',
-    video: '/videos/films/the-last-goodbye.mp4',
-    cover: W2,
+    id: 1,
+    title: 'Every Love Story, Told in Motion',
+    category: 'Wedding Films',
     description:
-      'A cinematic retelling of a day filled with teary vows, golden light, and a dance floor that never emptied.',
+      'Cinematic wedding films created around real emotions, natural moments and unforgettable memories.',
   },
-
   {
-    id: 'wander',
-    title: 'Wander',
-    category: 'Pre-Wedding Film',
-    duration: '03:08',
-    video: '/videos/films/wander.mp4',
-    cover: PW2,
+    id: 2,
+    title: 'Stories That Stay Forever',
+    category: 'Wedding Films',
     description:
-      'Two souls drifting through lavender fields as the sun kisses the horizon — a love letter in motion.',
+      'A visual journey through the emotions, people and moments that make every celebration unique.',
   },
-
   {
-    id: 'homecoming',
-    title: 'Homecoming',
-    category: 'Family Film',
-    duration: '05:21',
-    video: '/videos/films/homecoming.mp4',
-    cover: F4,
+    id: 3,
+    title: 'The Beginning of Forever',
+    category: 'Pre-Wedding Films',
     description:
-      'Generations gathered around a rustic table, where every laugh and lingering glance tells a story.',
+      'A beautiful visual story celebrating love before the wedding day.',
   },
 ]
 
-
 // =====================================================
-// POEMS
-// =====================================================
-
-export const POEMS = [
-  {
-    id: 'golden-hour',
-    title: 'Golden Hour',
-    excerpt:
-      'The light spills honey over the hill, and for a moment, everything is enough.',
-    full:
-      'The light spills honey over the hill, and for a moment, everything is enough. I hold the breath between heartbeats, the pause before the shutter falls, and call it art.',
-  },
-
-  {
-    id: 'still-waters',
-    title: 'Still Waters',
-    excerpt:
-      'A face reflected in quiet water asks what the mirror never dares.',
-    full:
-      'A face reflected in quiet water asks what the mirror never dares. I answer with a frame, a fragment of forever frozen mid-sigh.',
-  },
-
-  {
-    id: 'the-waiting',
-    title: 'The Waiting',
-    excerpt:
-      'Between the question and the answer, a whole lifetime waits to be seen.',
-    full:
-      'I capture the waiting — the held lace, the trembling hand, the almost.',
-  },
-
-  {
-    id: 'in-your-eyes',
-    title: 'In Your Eyes',
-    excerpt:
-      'Sometimes a single glance says everything words cannot.',
-    full:
-      'There are stories hidden inside a glance, quiet promises held between two people, waiting for the camera to notice.',
-  },
-
-  {
-    id: 'forever-begins',
-    title: 'Forever Begins',
-    excerpt:
-      'Every beginning carries the feeling of something that might last forever.',
-    full:
-      'Before the music begins and before the celebration fills the room, there is a quiet moment where forever begins.',
-  },
-
-  {
-    id: 'between-moments',
-    title: 'Between Moments',
-    excerpt:
-      'The most beautiful memories often live between the planned moments.',
-    full:
-      'Not every story happens in front of the camera. Some live between a laugh, a touch, a breath, and the silence that follows.',
-  },
-
-  {
-    id: 'love-in-motion',
-    title: 'Love in Motion',
-    excerpt:
-      'Love is never still — it moves through every little moment.',
-    full:
-      'A hand reaching for another, a dress moving with the wind, laughter carried across the room — love is always in motion.',
-  },
-
-  {
-    id: 'the-beautiful-chaos',
-    title: 'The Beautiful Chaos',
-    excerpt:
-      'Among the noise and celebration, there is always something quietly beautiful.',
-    full:
-      'The laughter, the tears, the dancing, the unexpected moments — somewhere inside the beautiful chaos is the story worth remembering.',
-  },
-
-  {
-    id: 'after-the-light',
-    title: 'After the Light',
-    excerpt:
-      'When the day ends, the photographs keep the feeling alive.',
-    full:
-      'The light eventually fades, the music becomes quiet, and everyone goes home. What remains are the moments we chose to keep.',
-  },
-]
-
-
-// =====================================================
-// POETRY GALLERY
+// POETRY
 // =====================================================
 
 export const POETRY_IMAGES = [
-  W1,
-  PW2,
-  F8,
-  W7,
-  PW5,
-  F10,
-  W11,
-  PW9,
-  F14,
+  {
+    id: 1,
+    title: 'Moments Between Moments',
+    description:
+      'The quiet emotions that often become the most memorable part of a celebration.',
+  },
+  {
+    id: 2,
+    title: 'Where Love Lives',
+    description:
+      'Stories of connection, laughter and togetherness.',
+  },
+  {
+    id: 3,
+    title: 'A Moment To Remember',
+    description:
+      'Some moments deserve to be remembered exactly as they happened.',
+  },
+  {
+    id: 4,
+    title: 'Timeless',
+    description:
+      'Photography that turns fleeting moments into memories.',
+  },
 ]
-
 
 // =====================================================
 // BLOG POSTS
@@ -433,39 +316,34 @@ export const POETRY_IMAGES = [
 
 export const BLOG_POSTS = [
   {
-    id: 'lighting-guide',
-    title: 'Chasing Light: A Guide to Golden Hour',
-    category: 'Education',
-    date: 'March 12, 2025',
-    readTime: '6 min read',
-    image: W5,
+    id: 1,
+    title: 'How We Capture Real Wedding Emotions',
+    category: 'Wedding Photography',
     excerpt:
-      'Golden hour is more than a filter — it is a science and an art. Here is how to chase it anywhere in the world.',
+      'Our approach to capturing genuine emotions and authentic wedding moments.',
   },
-
   {
-    id: 'behind-the-scenes',
-    title: 'Behind the Scenes: A Royal Wedding in Jaipur',
-    category: 'Journal',
-    date: 'February 28, 2025',
-    readTime: '8 min read',
-    image: W6,
+    id: 2,
+    title: 'Why Candid Photography Matters',
+    category: 'Photography',
     excerpt:
-      'An intimate look at the chaos, the laughter, and the quiet magic that happens behind the camera.',
+      'The beauty of photographs that feel natural, honest and completely yours.',
   },
-
   {
-    id: 'storytelling',
-    title: 'The Art of Visual Storytelling',
-    category: 'Reflection',
-    date: 'February 10, 2025',
-    readTime: '5 min read',
-    image: PW4,
+    id: 3,
+    title: 'Planning Your Wedding Photography',
+    category: 'Wedding Planning',
     excerpt:
-      'Every photograph is a sentence. Together, they become a poem. Here is how we compose the narrative.',
+      'A simple guide to planning your photography experience for the wedding day.',
+  },
+  {
+    id: 4,
+    title: 'Creating Memories That Last',
+    category: 'Stories',
+    excerpt:
+      'Why meaningful photography is about more than simply taking pictures.',
   },
 ]
-
 
 // =====================================================
 // TESTIMONIALS
@@ -473,191 +351,54 @@ export const BLOG_POSTS = [
 
 export const TESTIMONIALS = [
   {
+    id: 1,
     quote:
-      'Hemant didn’t just photograph our wedding — they saw it. Every glance, every tear, every barefoot dance. We cry every time we watch our film.',
-    name: 'Aarav & Meera',
-    role: 'Wedding & Film',
-    image: W5,
+      'They made every moment of our celebration feel effortless and beautiful. From the smallest details to the biggest emotions, they captured everything exactly as we remember it. For every celebration we have in the future, they will be the first people we call.',
+    name: 'Ananya & Rohan',
+    event: 'Wedding & Reception',
   },
-
   {
+    id: 2,
     quote:
-      'The pre-wedding session felt like a dream we got to live twice. The images are pure poetry.',
-    name: 'Rohan & Ananya',
-    role: 'Pre-Wedding',
-    image: PW5,
+      'We trusted them with our destination wedding across two countries, and they never once let us feel distant or unsure. The film still makes us cry. When our daughter gets married someday, we already know who will be behind the camera.',
+    name: 'Meera & Arjun',
+    event: 'Destination Wedding',
   },
-
   {
+    id: 3,
     quote:
-      'Working with this team was effortless. They made three generations of our family feel at ease in front of the camera.',
-    name: 'The Sharma Family',
-    role: 'Family Session',
-    image: W6,
+      'From our engagement to our one-year anniversary portraits, they have been with us at every milestone. There is a warmth and patience to the way they work that makes you forget the camera is even there. They are family now.',
+    name: 'Sara & Kabir',
+    event: 'Engagement & Anniversary',
   },
 ]
-
 
 // =====================================================
 // GALLERY IMAGES
 // =====================================================
 
 export const GALLERY_IMAGES = {
-
-  // ---------------------------------------------------
-  // WEDDING
-  // Uses:
-  // src/assets/Imagess/WeddingImagess/
-  // ---------------------------------------------------
-
-  wedding: weddingImages,
-
-
-  // ---------------------------------------------------
-  // PRE-WEDDING
-  // Uses:
-  // src/assets/Imagess/Pre-WeddingImagess/
-  // ---------------------------------------------------
-
-  'pre-wedding': preWeddingImages,
-
-
-  // ---------------------------------------------------
-  // POST-WEDDING
-  // ---------------------------------------------------
-
-  'post-wedding': [
-    {
-      src: W7,
-      alt: 'Post-wedding couple laughing',
-    },
-
-    {
-      src: W8,
-      alt: 'Post-wedding romantic portrait',
-    },
-
-    {
-      src: PW7,
-      alt: 'Post-wedding city walk',
-    },
-
-    {
-      src: W9,
-      alt: 'Post-wedding golden portrait',
-    },
-
-    {
-      src: PW8,
-      alt: 'Post-wedding couple at dusk',
-    },
-
-    {
-      src: W10,
-      alt: 'Post-wedding wreath detail',
-    },
-
-    {
-      src: PW12,
-      alt: 'Post-wedding intimate moment',
-    },
-
-    {
-      src: PW14,
-      alt: 'Post-wedding celebration frame',
-    },
-  ],
-
-
-  // ---------------------------------------------------
-  // FAMILY
-  // ---------------------------------------------------
-
-  family: [
-    {
-      src: F2,
-      alt: 'Family portrait in field',
-    },
-
-    {
-      src: F3,
-      alt: 'Generations together portrait',
-    },
-
-    {
-      src: F4,
-      alt: 'Mother and child portrait',
-    },
-
-    {
-      src: F5,
-      alt: 'Family portrait in natural light',
-    },
-
-    {
-      src: F6,
-      alt: 'Children playing',
-    },
-
-    {
-      src: F7,
-      alt: 'Family at home',
-    },
-
-    {
-      src: F15,
-      alt: 'Family candid portrait',
-    },
-
-    {
-      src: F16,
-      alt: 'Family warm moment',
-    },
-  ],
-
-
-  // ---------------------------------------------------
-  // FASHION
-  // Uses:
-  // src/assets/Imagess/FashionImagess/
-  // ---------------------------------------------------
-
-  fashion: fashionImages,
+  wedding: WEDDING_IMAGES,
+  'pre-wedding': PRE_WEDDING_IMAGES,
+  bridal: BRIDAL_IMAGES,
+  candid: CANDID_IMAGES,
+  groom: GROOM_IMAGES,
 }
 
-
 // =====================================================
-// DEBUG
+// DEFAULT EXPORT
 // =====================================================
 
-console.log(
-  '============================================'
-)
-
-console.log(
-  'WEDDING IMAGES FOUND:',
-  weddingImages.length
-)
-
-console.table(weddingImages)
-
-
-console.log(
-  'PRE-WEDDING IMAGES FOUND:',
-  preWeddingImages.length
-)
-
-console.table(preWeddingImages)
-
-
-console.log(
-  'FASHION IMAGES FOUND:',
-  fashionImages.length
-)
-
-console.table(fashionImages)
-
-
-console.log(
-  '============================================'
-)
+export default {
+  WEDDING_IMAGES,
+  PRE_WEDDING_IMAGES,
+  BRIDAL_IMAGES,
+  CANDID_IMAGES,
+  GROOM_IMAGES,
+  CATEGORIES,
+  FILMS,
+  POETRY_IMAGES,
+  BLOG_POSTS,
+  TESTIMONIALS,
+  GALLERY_IMAGES,
+}
